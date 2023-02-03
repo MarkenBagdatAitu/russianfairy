@@ -1,0 +1,282 @@
+html,
+body{
+  height: 100%;
+  line-height: 1;
+  background-color: rgb(255,255,255);
+  font-family: 'Josefin Slab', serif;
+  color: #000000;
+}
+
+.wrapper{
+  max-width: 1100px;
+  margin: auto;
+  width: 50%;
+  padding: 10px;
+}
+
+.header{
+  background-color: rgb(209,153,94);
+}
+
+.header_top{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 0;
+}
+
+.logo{
+  color: #fff;
+  font-size: 36px;
+  font-weight: 500;
+}
+.nav{
+  display: flex;
+  justify-content: space-between;
+  list-style-type: none;
+}
+
+.nav > li {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.nav > li > a{
+  text-decoration: none;
+  color: #fff;
+  font-family: 'Josefin Slab', serif;
+}
+
+.header_nav .nav{
+  font-size: 20px;
+  margin: 0;
+}
+
+.banner{
+  background: url(backgr.png) center no-repeat;
+  background-size: cover;
+  background-position: center center;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+.fairytale{
+  flex-grow: 1;
+  flex-basis: 0;
+  text-align: center;
+}
+
+
+.title{
+  font-size: 48px;
+  font-weight: 700;
+  text-align: right;
+  color: rgb(209,153,94);
+  margin-top: 250px;
+  text-shadow: white 3px 2px;
+}
+
+.new{
+  padding: 90px 0 90px;
+  background-color:rgb(209,153,94);
+}
+
+.about_title{
+  margin: 0 0 50px;
+  text-transform: uppercase;
+  text-align: center;
+  color: #fff;
+  font-size: 32px;
+  line-height: 39px;
+  font-weight: 700;
+}
+
+.about_news{
+  display: flex;
+}
+
+.about_text p{
+  max-width: 560px;
+  font-size: 25px;
+  line-height: 26px;
+  margin: 0 0 10px;
+  display: block;
+  font-family: inherit;
+  color: #fff;
+}
+
+.main_image{
+  margin-left: 80px;
+  width: 300px;
+  height: 300px;
+}
+
+.choose{
+  padding: 90px 0 90px;
+}
+
+.wrapper_new{
+  max-width: 1100px;
+  padding: 10px;
+}
+
+.choose_title{
+  margin-left: 550px;
+  text-transform: uppercase;
+  color: #1E90FF;
+  font-size: 32px;
+  line-height: 39px;
+  font-weight: 700;
+}
+
+.cover{
+  width: 900px;
+  height: 400px;
+  margin-top: 50px;
+  display: flex;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.color_item{
+  outline: none;
+text-decoration: none;
+}
+
+.color_item h3{
+  color: #000080;
+}
+
+.color_item p{
+  color: #00008B;
+}
+
+.color_item:hover {
+  border-bottom: 1px solid;
+  background: #87CEEB;
+}
+
+.color_item{
+  margin: 15px;
+  width: 800px;
+  height: 400px;
+  box-shadow: -1px 0 10px #1E90FF;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+img{
+  width: 300px;
+  height: 200px;
+  display: flex;
+}
+
+.team{
+  padding: 90px 0 90px;
+  background-color:rgb(209,153,94);
+}
+
+.column {
+  float: left;
+  width: 31%;
+  margin-bottom: 16px;
+  padding: 0 8px;
+}
+
+@media screen and (max-width: 650px) {
+  .column {
+    width: 100%;
+    display: block;
+  }
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(255, 255, 255, 255);
+}
+
+.container {
+  padding:8px 16px;
+  background-color: #fff;
+}
+
+.container::after, .row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.container h2{
+  color: rgb(209,153,94);
+}
+
+.container p{
+  color: rgb(209,153,94);
+}
+
+/*************QORQYT ATA*********************/
+
+.banner_qorqyt{
+  background: url(photo/kunai.jpg) center no-repeat;
+  background-size: cover;
+  background-position: center center;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+.wrapper_qorqyt{
+  max-width: 1100px;
+  margin: auto;
+}
+
+.back_qorqyt{
+  margin-top: 300px;
+}
+
+.new_qorqyt{
+  padding: 90px 0 90px;
+  background-color:rgb(209,153,94);
+}
+
+.about_news{
+  display: flex;
+}
+
+.about_qorqyt p{
+  font-size: 25px;
+  line-height: 26px;
+  display: block;
+  font-family: inherit;
+  color: #fff;
+}
+
+
+/***************bulbul*********************/
+
+.banner_bulbul{
+  background: url(photo/bulbul0.png) center no-repeat;
+  background-size: cover;
+  background-position: center center;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+/***************aikun*********************/
+
+.banner_aikun{
+  background: url(photo/aikun.jpg) center no-repeat;
+  background-size: cover;
+  background-position: center center;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+/***************lisa koza*********************/
+
+.banner_lisakoza{
+  background: url(photo/lisakoza.jpg) center no-repeat;
+  background-size: cover;
+  background-position: center center;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
